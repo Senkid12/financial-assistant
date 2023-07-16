@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Сколько дней до зарплаты?");
         int daysBeforeSalary = scanner.nextInt();
 
-        Converter converter = new Converter(78.5,88.7,0.75);
+        Converter converter = new Converter(78.5,88.7,0.76);
         DinnerAdvisor dinnerAdvisor = new DinnerAdvisor();
         ExpensesManager expensesManager = new ExpensesManager();
 
